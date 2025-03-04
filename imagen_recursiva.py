@@ -1,7 +1,7 @@
-from io import BytesIO
-
 import streamlit as st
 from PIL import Image
+from io import BytesIO
+import math
 
 # Configuración de la página (título y layout en modo "wide")
 st.set_page_config(page_title="Imagen Recursiva", layout="wide")
